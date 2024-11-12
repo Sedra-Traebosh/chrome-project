@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-image: url(FB_IMG_1606463260611.jpg);
+  
+}
+div{
+    position: relative;
+}
+
+.g{
+   
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 93px;
+    
+}
+.g h1::first-letter{
+    color: brown;
+}
+.g h1::first-line{
+    color: rgb(73, 151, 196);
+}
+.g h1::after{
+    content: "e";
+   
+}
+
+.u{
+    
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 20px auto;
+}
+.u input {
+    width: 57%;
+    height: 92px;
+    display: flex;
+    margin: auto;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+    position: relative;
+    right: 24%;
+    background-size:contain;
+  }
+  .m{
+    width: 50%;
+    text-align: center;
+    padding: 21px;
+    display: flex;
+    margin: auto;
+    
+  }
+  .m .sky{
+    background-color: #fff;
+    opacity: 0.6;
+    color: rgb(68, 0, 255);
+    padding: 8px;
+    margin: auto;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+  
+  .m .goo{
+    color: red;
+    opacity: 0.6;
+    background-color: #fff;
+    padding: 6px;
+    margin: auto;
+    border-radius: 263px;
+    -webkit-border-radius: 263px;
+    -moz-border-radius: 263px;
+    -ms-border-radius: 263px;
+    -o-border-radius: 263px;
+}
+  
+  .m .you{
+    color: rgb(13, 151, 55);
+    opacity: 0.6;
+    background-color: #fff;
+    padding: 8px;
+    margin: auto;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+
+  .sky p, .you p, .goo p{
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+}
+.sky .G, .goo .O , .you .Y{
+    padding: 5px;
+    width: 50px;
+    border:3px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: auto;
+    margin-top: 8px;
+    background-color: black;
+    color: #fff;
+}
+.you .yy{
+    font-size: 32px;
+    width: 157px;
+}
